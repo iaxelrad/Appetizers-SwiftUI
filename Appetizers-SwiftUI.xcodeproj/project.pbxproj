@@ -15,6 +15,7 @@
 		DC8286982BD2B83700680CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8286972BD2B83700680CC0 /* Assets.xcassets */; };
 		DC82869B2BD2B83700680CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC82869A2BD2B83700680CC0 /* Preview Assets.xcassets */; };
 		DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */; };
+		DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DC82869A2BD2B83700680CC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC8286A12BD2B92D00680CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				DC0A92B52BD2BB16005048B4 /* AccountView.swift */,
 				DC0A92B72BD2BB24005048B4 /* OrderView.swift */,
 				DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */,
+				DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */,
 			);
 			path = "Appetizers-SwiftUI";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */,
+				DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */,
 				DC0A92B62BD2BB16005048B4 /* AccountView.swift in Sources */,
 				DC8286962BD2B83700680CC0 /* AppetizerTabView.swift in Sources */,
 				DC8286942BD2B83700680CC0 /* Appetizers_SwiftUIApp.swift in Sources */,
