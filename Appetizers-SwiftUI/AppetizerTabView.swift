@@ -7,18 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AppetizerTabView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+        TabView {
             Text("Hello, world!")
+                .padding()
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    AppetizerTabView()
 }
