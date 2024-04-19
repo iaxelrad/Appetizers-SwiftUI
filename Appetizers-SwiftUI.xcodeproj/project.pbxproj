@@ -14,7 +14,6 @@
 		DC8286962BD2B83700680CC0 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8286952BD2B83700680CC0 /* AppetizerTabView.swift */; };
 		DC8286982BD2B83700680CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8286972BD2B83700680CC0 /* Assets.xcassets */; };
 		DC82869B2BD2B83700680CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC82869A2BD2B83700680CC0 /* Preview Assets.xcassets */; };
-		DC8286A22BD2B92D00680CC0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC8286A12BD2B92D00680CC0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,7 +138,6 @@
 			files = (
 				DC82869B2BD2B83700680CC0 /* Preview Assets.xcassets in Resources */,
 				DC8286982BD2B83700680CC0 /* Assets.xcassets in Resources */,
-				DC8286A22BD2B92D00680CC0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +289,7 @@
 				DEVELOPMENT_TEAM = F7XUWMJPAL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appetizers-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +319,7 @@
 				DEVELOPMENT_TEAM = F7XUWMJPAL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appetizers-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
