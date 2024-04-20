@@ -76,23 +76,14 @@
 		DC8286922BD2B83700680CC0 /* Appetizers-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DCFF5BBC2BD3C6F0001803C1 /* Model */,
+				DCFF5BB82BD3C663001803C1 /* Utilities */,
+				DCFF5BBD2BD3C71C001803C1 /* Views */,
+				DCFF5BB42BD3C5DE001803C1 /* Screens */,
 				DC8286932BD2B83700680CC0 /* Appetizers_SwiftUIApp.swift */,
-				DC8286952BD2B83700680CC0 /* AppetizerTabView.swift */,
 				DC8286972BD2B83700680CC0 /* Assets.xcassets */,
 				DC8286A12BD2B92D00680CC0 /* Info.plist */,
 				DC8286992BD2B83700680CC0 /* Preview Content */,
-				DC0A92B32BD2BB09005048B4 /* AppetizerListView.swift */,
-				DC0A92B52BD2BB16005048B4 /* AccountView.swift */,
-				DC0A92B72BD2BB24005048B4 /* OrderView.swift */,
-				DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */,
-				DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */,
-				DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */,
-				DCFF5BA82BD2DE12001803C1 /* APError.swift */,
-				DCFF5BAA2BD30F0E001803C1 /* AppetizerListViewModel.swift */,
-				DCFF5BAC2BD31116001803C1 /* Alert.swift */,
-				DCFF5BAE2BD3B9DF001803C1 /* LoadingView.swift */,
-				DCFF5BB02BD3BAB9001803C1 /* Color+Ext.swift */,
-				DCFF5BB22BD3C1F8001803C1 /* RemoteImage.swift */,
 			);
 			path = "Appetizers-SwiftUI";
 			sourceTree = "<group>";
@@ -103,6 +94,119 @@
 				DC82869A2BD2B83700680CC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCFF5BB42BD3C5DE001803C1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DC8286952BD2B83700680CC0 /* AppetizerTabView.swift */,
+				DCFF5BB52BD3C5F2001803C1 /* AppetizerListView */,
+				DCFF5BB62BD3C5FF001803C1 /* AccountView */,
+				DCFF5BB72BD3C607001803C1 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DCFF5BB52BD3C5F2001803C1 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BAA2BD30F0E001803C1 /* AppetizerListViewModel.swift */,
+				DC0A92B32BD2BB09005048B4 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		DCFF5BB62BD3C5FF001803C1 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A92B52BD2BB16005048B4 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		DCFF5BB72BD3C607001803C1 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A92B72BD2BB24005048B4 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		DCFF5BB82BD3C663001803C1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BBB2BD3C6B1001803C1 /* Alerts */,
+				DCFF5BBA2BD3C68E001803C1 /* Extensions */,
+				DCFF5BB92BD3C678001803C1 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DCFF5BB92BD3C678001803C1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DCFF5BBA2BD3C68E001803C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BB02BD3BAB9001803C1 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCFF5BBB2BD3C6B1001803C1 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BA82BD2DE12001803C1 /* APError.swift */,
+				DCFF5BAC2BD31116001803C1 /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		DCFF5BBC2BD3C6F0001803C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCFF5BBD2BD3C71C001803C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BC02BD3C75D001803C1 /* Image */,
+				DCFF5BBF2BD3C735001803C1 /* Cells */,
+				DCFF5BBE2BD3C724001803C1 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCFF5BBE2BD3C724001803C1 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BAE2BD3B9DF001803C1 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		DCFF5BBF2BD3C735001803C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DCFF5BC02BD3C75D001803C1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF5BB22BD3C1F8001803C1 /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
