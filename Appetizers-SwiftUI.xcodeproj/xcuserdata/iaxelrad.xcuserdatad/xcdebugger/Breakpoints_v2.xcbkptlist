@@ -14,8 +14,8 @@
             filePath = "Appetizers-SwiftUI/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "getAppetizers(completed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,10 +30,40 @@
             filePath = "Appetizers-SwiftUI/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "getAppetizers(completed:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A90FDF9D-71A0-4E30-BF14-10020EEBE503 - 3346ef673aeed272"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Appetizers_SwiftUI.NetworkManager.getAppetizers(completed: (Swift.Result&lt;Swift.Array&lt;Appetizers_SwiftUI.Appetizer&gt;, Appetizers_SwiftUI.APError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appetizers-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iaxelrad/Desktop/dev/SwiftUI-Fundamentals/Appetizers-SwiftUI/Appetizers-SwiftUI/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "A90FDF9D-71A0-4E30-BF14-10020EEBE503 - 3346ef673aeed272"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Appetizers_SwiftUI.NetworkManager.getAppetizers(completed: (Swift.Result&lt;Swift.Array&lt;Appetizers_SwiftUI.Appetizer&gt;, Appetizers_SwiftUI.APError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appetizers-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iaxelrad/Desktop/dev/SwiftUI-Fundamentals/Appetizers-SwiftUI/Appetizers-SwiftUI/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -46,8 +76,8 @@
             filePath = "Appetizers-SwiftUI/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "getAppetizers(completed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +92,8 @@
             filePath = "Appetizers-SwiftUI/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "getAppetizers(completed:)"
             landmarkType = "7">
          </BreakpointContent>
