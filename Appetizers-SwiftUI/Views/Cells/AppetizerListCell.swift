@@ -29,7 +29,12 @@ struct AppetizerListCell: View {
             .padding(.leading)
         }
         .alignmentGuide(.listRowSeparatorLeading) { viewDimensions in return 0 }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {

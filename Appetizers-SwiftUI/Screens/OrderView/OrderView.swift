@@ -13,7 +13,12 @@ struct OrderView: View {
             Text("Orders")
                 .navigationTitle("🧾 Orders")
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 #Preview {
     OrderView()

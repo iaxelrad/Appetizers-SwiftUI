@@ -19,7 +19,12 @@ struct APButton: View {
             .foregroundColor(.white)
             .background(Color.brandPrimary)
             .cornerRadius(10)
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {

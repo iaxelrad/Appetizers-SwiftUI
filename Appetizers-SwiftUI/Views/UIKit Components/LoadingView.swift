@@ -25,5 +25,10 @@ struct LoadingView: View {
                 .edgesIgnoringSafeArea(.all)
             ActivityIndicator()
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }

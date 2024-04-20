@@ -28,6 +28,10 @@ struct RemoteImage: View {
     var body: some View {
         image?.resizable() ?? Image("food-placeholder").resizable()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 
@@ -39,5 +43,10 @@ struct AppetizerRemoteImage: View {
     var body: some View {
         RemoteImage(image: imageLoader.image)
             .onAppear{ imageLoader.load(fromURLString: urlString) }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }

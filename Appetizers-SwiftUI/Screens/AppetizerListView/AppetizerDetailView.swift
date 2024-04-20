@@ -53,7 +53,12 @@ struct AppetizerDetailView: View {
         } label: {
            XDismissButton()
         }, alignment: .topTrailing)
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {
@@ -75,5 +80,10 @@ struct NutritionInfo: View {
                 .fontWeight(.semibold)
                 .italic()
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }

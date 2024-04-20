@@ -43,7 +43,12 @@ struct AppetizerListView: View {
                   message: alertItem.message,
                   dismissButton: alertItem.dismissButton)
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {

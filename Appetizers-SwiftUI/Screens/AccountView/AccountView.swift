@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Inject
 
 struct AccountView: View {
 
@@ -43,7 +44,12 @@ struct AccountView: View {
             }
                 .navigationTitle("🤣 Account")
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {

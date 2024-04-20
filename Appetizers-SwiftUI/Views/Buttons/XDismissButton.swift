@@ -20,7 +20,12 @@ struct XDismissButton: View {
                 .frame(width: 44, height: 44)
                 .foregroundColor(.black)
         }
+        .enableInjection()
     }
+
+    #if DEBUG
+    @ObserveInjection var forceRedraw
+    #endif
 }
 
 #Preview {

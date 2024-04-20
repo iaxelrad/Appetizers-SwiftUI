@@ -17,6 +17,7 @@
 		DCA7DE302BD44C2800F87BED /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DE2F2BD44C2800F87BED /* AppetizerDetailView.swift */; };
 		DCA7DE332BD45C0300F87BED /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DE322BD45C0300F87BED /* APButton.swift */; };
 		DCA7DE352BD45CAA00F87BED /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DE342BD45CAA00F87BED /* XDismissButton.swift */; };
+		DCA7DE382BD4632800F87BED /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = DCA7DE372BD4632800F87BED /* Inject */; };
 		DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */; };
 		DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */; };
 		DCFF5BA72BD2DD0F001803C1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */; };
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA7DE382BD4632800F87BED /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +244,9 @@
 			dependencies = (
 			);
 			name = "Appetizers-SwiftUI";
+			packageProductDependencies = (
+				DCA7DE372BD4632800F87BED /* Inject */,
+			);
 			productName = "Appetizers-SwiftUI";
 			productReference = DC8286902BD2B83700680CC0 /* Appetizers-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -270,6 +275,9 @@
 				Base,
 			);
 			mainGroup = DC8286872BD2B83700680CC0;
+			packageReferences = (
+				DCA7DE362BD4632800F87BED /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = DC8286912BD2B83700680CC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -376,6 +384,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -520,6 +532,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCA7DE362BD4632800F87BED /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCA7DE372BD4632800F87BED /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCA7DE362BD4632800F87BED /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC8286882BD2B83700680CC0 /* Project object */;
 }
