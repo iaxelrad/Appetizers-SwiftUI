@@ -24,6 +24,7 @@
 		DCD8CABC2BD4FD8E0090F96C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CABB2BD4FD8E0090F96C /* EmptyState.swift */; };
 		DCD8CABE2BD5063B0090F96C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CABD2BD5063B0090F96C /* Order.swift */; };
 		DCD8CAC02BD525A70090F96C /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CABF2BD525A70090F96C /* CustomModifiers.swift */; };
+		DCD8CAC42BD5A0610090F96C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CAC32BD5A0610090F96C /* Date+Ext.swift */; };
 		DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */; };
 		DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */; };
 		DCFF5BA72BD2DD0F001803C1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */; };
@@ -54,6 +55,7 @@
 		DCD8CABB2BD4FD8E0090F96C /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		DCD8CABD2BD5063B0090F96C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		DCD8CABF2BD525A70090F96C /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		DCD8CAC32BD5A0610090F96C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			children = (
 				DCFF5BB02BD3BAB9001803C1 /* Color+Ext.swift */,
 				DCD8CAB42BD46BAA0090F96C /* String+Ext.swift */,
+				DCD8CAC32BD5A0610090F96C /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */,
 				DCFF5BA92BD2DE12001803C1 /* APError.swift in Sources */,
 				DCA7DE352BD45CAA00F87BED /* XDismissButton.swift in Sources */,
+				DCD8CAC42BD5A0610090F96C /* Date+Ext.swift in Sources */,
 				DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */,
 				DCD8CABE2BD5063B0090F96C /* Order.swift in Sources */,
 				DCD8CAB32BD46A140090F96C /* AccountViewModel.swift in Sources */,
