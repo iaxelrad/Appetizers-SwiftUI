@@ -17,7 +17,7 @@ final class AppetizerListViewModel: ObservableObject {
     func getAppetizers() {
         isLoading = true
         NetworkManager.shared.getAppetizers { [self] result in
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [self] in
                 isLoading = false
                 switch result {
                 case .success(let appetizers):
@@ -31,7 +31,7 @@ final class AppetizerListViewModel: ObservableObject {
                         alertItem = AlertContext.invalidURL
 
                     case .invalidData:
-                        alertItem = AlertContext.invalidData
+                        self.alertItem = AlertContext.invalidData
 
                     case .unableToComplete:
                         alertItem = AlertContext.unableToComplete

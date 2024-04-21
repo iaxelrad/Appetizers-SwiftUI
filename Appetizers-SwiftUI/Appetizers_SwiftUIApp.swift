@@ -11,9 +11,11 @@ import Inject
 @main
 struct Appetizers_SwiftUIApp: App {
 
+    var order = Order()
+
     var body: some Scene {
         WindowGroup {
-            AppetizerTabView()
+            AppetizerTabView().environmentObject(order)
         }
     }
 }
@@ -37,8 +39,6 @@ private var loadInjectionOnce: () = {
         let bundleName = "macOSInjection.bundle"
         #elseif os(tvOS)
         let bundleName = "tvOSInjection.bundle"
-        #elseif os(xrOS)
-        let bundleName = "xrOSInjection.bundle"
         #elseif targetEnvironment(simulator)
         let bundleName = "iOSInjection.bundle"
         #else
