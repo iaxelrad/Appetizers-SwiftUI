@@ -21,7 +21,7 @@
 		DCD8CAB32BD46A140090F96C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CAB22BD46A140090F96C /* AccountViewModel.swift */; };
 		DCD8CAB52BD46BAA0090F96C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CAB42BD46BAA0090F96C /* String+Ext.swift */; };
 		DCD8CAB72BD4ECAC0090F96C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CAB62BD4ECAC0090F96C /* User.swift */; };
-		DCD8CAB92BD4F6CD0090F96C /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CAB82BD4F6CD0090F96C /* OrderViewModel.swift */; };
+		DCD8CABC2BD4FD8E0090F96C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8CABB2BD4FD8E0090F96C /* EmptyState.swift */; };
 		DCFF5BA32BD2CE86001803C1 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */; };
 		DCFF5BA52BD2D938001803C1 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */; };
 		DCFF5BA72BD2DD0F001803C1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */; };
@@ -49,7 +49,7 @@
 		DCD8CAB22BD46A140090F96C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		DCD8CAB42BD46BAA0090F96C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		DCD8CAB62BD4ECAC0090F96C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../Documents/User.swift; sourceTree = "<group>"; };
-		DCD8CAB82BD4F6CD0090F96C /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		DCD8CABB2BD4FD8E0090F96C /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		DCFF5BA22BD2CE86001803C1 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		DCFF5BA42BD2D938001803C1 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		DCFF5BA62BD2DD0F001803C1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -121,6 +121,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		DCD8CABA2BD4FD730090F96C /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8CABB2BD4FD8E0090F96C /* EmptyState.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
 		DCFF5BB42BD3C5DE001803C1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				DC0A92B72BD2BB24005048B4 /* OrderView.swift */,
-				DCD8CAB82BD4F6CD0090F96C /* OrderViewModel.swift */,
 			);
 			path = OrderView;
 			sourceTree = "<group>";
@@ -208,6 +215,7 @@
 		DCFF5BBD2BD3C71C001803C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DCD8CABA2BD4FD730090F96C /* Empty States */,
 				DCA7DE312BD45BF000F87BED /* Buttons */,
 				DCFF5BC02BD3C75D001803C1 /* Image */,
 				DCFF5BBF2BD3C735001803C1 /* Cells */,
@@ -326,9 +334,9 @@
 				DC0A92B62BD2BB16005048B4 /* AccountView.swift in Sources */,
 				DCD8CAB72BD4ECAC0090F96C /* User.swift in Sources */,
 				DCA7DE332BD45C0300F87BED /* APButton.swift in Sources */,
+				DCD8CABC2BD4FD8E0090F96C /* EmptyState.swift in Sources */,
 				DCFF5BAF2BD3B9DF001803C1 /* LoadingView.swift in Sources */,
 				DC8286962BD2B83700680CC0 /* AppetizerTabView.swift in Sources */,
-				DCD8CAB92BD4F6CD0090F96C /* OrderViewModel.swift in Sources */,
 				DCFF5BA72BD2DD0F001803C1 /* NetworkManager.swift in Sources */,
 				DCFF5BB32BD3C1F8001803C1 /* RemoteImage.swift in Sources */,
 				DCD8CAB52BD46BAA0090F96C /* String+Ext.swift in Sources */,
